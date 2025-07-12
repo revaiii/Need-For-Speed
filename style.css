@@ -1,0 +1,51 @@
+{
+box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 20px 0;
+  color: #ff5733;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 15px 0;
+  color: #33cfff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.handwriting {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.2em;
+  color: #ffd700;
+  margin: 15px 0;
+}
+
+.img {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.img img {
+  width: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
